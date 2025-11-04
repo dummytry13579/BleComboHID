@@ -1,0 +1,8 @@
+Download the BleComboHID in zip file and place it in local Arduino's library
+Go to Arduino > Sketch > Include Library > Add .ZIP library > browse for downloaded library
+add in BleComboHID library into the code
+#include <BleComboHID.h>
+#include <BleConnectionStatus.h>
+#include <BleKeyboard.h>
+#include <BleMouse.h>
+#include <MouseButtonConstants.h>
